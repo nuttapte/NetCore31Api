@@ -8,6 +8,7 @@ dotnet new webapi -o EFCoreMySQL -f netcoreapp3.1
 dotnet add package Swashbuckle.AspNetCore --version 6.5.0
 
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 3.1.0-preview3.19558.8
+
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.0
 
 ==========================> add into startup.cs file under void of "ConfigureServices"<==============================
